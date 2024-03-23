@@ -1,11 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap);
 
-#NavbarHeader {
-    margin: 10px;
-}
-
 #section1 {
-    height: 50vh;
+    height: fit-content;
     background-color: #a77932;
     display: flex;
     flex-wrap: nowrap;
@@ -20,12 +16,14 @@
 }
 
 #section2 {
+    height: fit-content;
     background-color: #fb3434;
     flex-wrap: nowrap;
     padding-top: 10px;
 }
 
 #section3 {
+    height: fit-content;
     background-color: #84d644;
     flex-wrap: nowrap;
     padding-top: 10px;
@@ -41,3 +39,9 @@ footer {
 a {
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    iframe {
+      width: fit-content;
+    }
+  }
