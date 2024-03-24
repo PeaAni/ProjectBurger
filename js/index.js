@@ -1,13 +1,22 @@
-// alert("เว็บไซต์นี้ทำเพื่อจุดประสงค์ทางการศึกษาเท่านั้น")
+alert("เว็บไซต์นี้ทำเพื่อจุดประสงค์ทางการศึกษาเท่านั้น")
 
-const counterSpan = document.getElementById("NumberCart");
-let count = 0;
+// ระบบ cart button
+const NumberCart = document.getElementById("NumberCart");
+let CartButtonCount = 0;
 
-const buttons = document.querySelectorAll(".cart-button");
+const CartButton = document.querySelectorAll(".cart-button");
 
-buttons.forEach(button => {
+CartButton.forEach(button => {
   button.addEventListener("click", () => {
-    count++;
-    counterSpan.textContent = count;
+    CartButtonCount++;
+    NumberCart.textContent = CartButtonCount;
   });
+});
+// ระบบ cart button
+
+// ระบบ บอกจำนวน
+const CartIcon = document.getElementById("CartIcon");
+
+CartIcon.addEventListener("click", function() {
+  alert("คุณมีของในตระกร้าทั้งหมด " + CartButtonCount + " ชิ้น");
 });

@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
 }
 #cart * {
     width: 5vw;
@@ -14,4 +14,8 @@
 
 body {
     height: 1500px;
+}
+
+#CartIcon:hover {
+    cursor: pointer;
 }
