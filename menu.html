@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indy Burger</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" type="image/x-icon" href="photo/indy_burger.jpg">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <span class="navbar-brand">
+                    <img src="photo/indy_burger.jpg" alt="Burger" height="24" class="d-inline-block align-text-top rounded">
+                    Indy Burger
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="SectionBurger">
+        <div class="BurgerList">
+            <img src="photo/indy_burger.jpg" alt="Indy Burger Steak Sauce Hot" class="rounded" >
+            <h1>Indy Burger Steak Sauce Hot</h1>
+            <button type="button" class="btn btn-primary cart-button">Primary</button>
+        </div>
+        <div class="BurgerList">
+            <img src="photo/indy_burger.jpg" alt="Indy Burger Steak Sauce Not Hot" class="rounded" >
+            <h1>Indy Burger Steak Sauce Not Hot</h1>
+            <button type="button" class="btn btn-primary cart-button">Primary</button>
+        </div>
+        <div class="BurgerList">
+            <img src="photo/indy_burger.jpg" alt="Indy Burger สลัดครีม Hot" class="rounded" >
+            <h1>Indy Burger สลัดครีม Hot</h1>
+            <button type="button" class="btn btn-primary cart-button">Primary</button>
+        </div>
+    </section>
+
+    <section class="SectionBurger">
+        <div class="BurgerList">
+            <img src="photo/indy_burger.jpg" alt="Indy Burger สลัดครีม Not Hot" class="rounded" >
+            <h1>Indy Burger สลัดครีม Not Hot</h1>
+            <button type="button" class="btn btn-primary cart-button">Primary</button>
+        </div>
+        <div class="BurgerList">
+            <img src="photo/indy_burger.jpg" alt="Indy Burger ซอสกระเทียม Hot" class="rounded" >
+            <h1>Indy Burger ซอสกระเทียม Hot</h1>
+            <button type="button" class="btn btn-primary cart-button">Primary</button>
+        </div>
+        <div class="BurgerList">
+            <img src="photo/indy_burger.jpg" alt="Indy Burger ซอสกระเทียม Not Hot" class="rounded" >
+            <h1>Indy Burger ซอสกระเทียม Not Hot</h1>
+            <button type="button" class="btn btn-primary cart-button">Primary</button>
+        </div>
+    </section>
+
+    <!-- menu ลอย -->
+    <section class="fixed-bottom" id="cart"> 
+        <img src="photo/shopping_cart.svg" alt="shoppingcart">
+        <span id="NumberCart">0</span>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</html>

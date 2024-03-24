@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap);
+
 
 #section1 {
     height: fit-content;
@@ -7,13 +7,6 @@
     flex-wrap: nowrap;
 }
 
-* {
-    box-sizing: border-box;
-  }
-
-* * {
-    font-family: "Noto Sans Thai", sans-serif;
-}
 
 #section2 {
     height: fit-content;

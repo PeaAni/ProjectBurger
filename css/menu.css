@@ -1,0 +1,17 @@
+.BurgerList *{
+    width: 20vw;
+    text-align: center;
+}
+.SectionBurger {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#cart * {
+    width: 5vw;
+}
+
+body {
+    height: 1500px;
+}
